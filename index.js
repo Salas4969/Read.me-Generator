@@ -49,7 +49,7 @@ function myErrorFunc(error) {
 function writeToFile(answers) {
     
 const readMeCont = generateMarkdown(answers)
-fs.writeFile(answers.Title + ".md", readMeCont, myErrorFunc);
+fs.writeFile(answers.title + ".md", readMeCont, myErrorFunc);
 
 }
 
