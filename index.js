@@ -20,7 +20,7 @@ const questions = [
     type: "list",
     message: "Choose a License",
     name: "license",
-    choices: ["MIT", "Mozilla-Public", "Eclipse Public", "Apache", "none"],
+    choices: ["MIT", "Mozilla-Public", "Eclipse-Public", "Apache", "none"],
   },
   {
     type: "input",
